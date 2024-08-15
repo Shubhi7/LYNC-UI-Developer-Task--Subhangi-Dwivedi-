@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PepeTap Wallet</title>
+    <link rel="stylesheet" href="gamescreen.css">
+    <link rel="stylesheet" href="wallet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="wallet_screen">
+        <header>
+            <div class="logo">
+               <img src="./images/logo.png" alt="PepeTap Logo">
+                <span><h2>PEPETAP </h2></span> 
+            </div>
+            <a href="modal.html" style="text-decoration: none;
+    color: #fff;">
+                <div class="menu-icon">
+                    <span>&#9776;</span>
+                </div>
+            </a>
+        </header>
+
+        <main>
+            <section class="wallet-info">
+                <h2>YOUR PEPETAP WALLET</h2>
+                <p>This is the Aptos Address of your wallet. Send $APT to this address to fund your wallet and start
+                    your game.</p>
+            </section>
+
+            <section class="account-info">
+                <div class="account-card">
+                    <div class="card-icons">
+                        <div class="account-header">
+                            <h3>Home</h3>
+                            <p>Account (0x4bb...3ffe) <span class="copy-icon">📋</span></p>
+                        </div>
+                        <img src="./images/papa_pepe.png">
+                    </div>
+                    <div class="account-balance">
+                        <p>APT balance <span>1</span></p>
+                        <p>Coin Balance <span>0</span></p>
+                        <p>Total tickets <span>0</span></p>
+                        <p>Pending Rewards <span>0</span></p>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="claim-btn">Claim Rewards</button>
+                        <button class="send-btn">Send</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="instructions">
+                <h2>YOUR PEPETAP WALLET</h2>
+                <h3>How to Deposit and Play</h3>
+                <div class="instruction-card">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <div class="para-content">
+                        <h3>Auto generate your wallet</h3>
+                        <p>PepeTap automatically generates your PepeTap Wallet. If you want
+                            to change the wallet, click "New Wallet".</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instruction-card">
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <div class="para-content">
+                        <h3>Backup your PepeTap Wallet</h3>
+                        <p>Copy your secret key and keep it safe; this allows you to restore
+                            your wallet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instruction-card">
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <div class="para-content">
+                        <h3>Deposit your APT and start</h3>
+                        <p>Send APT to your PepeTap Wallet to pay the network fee and start
+                            tickling.</p>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="secret-key-section">
+                <h3>Your Secret Key -:</h3>
+                <div class="secret-key-box">
+                    <p>0xb4e95528...346663c929</p>
+                    <span class="copy-icon"><img src="./images/copy.svg"> </span>
+                </div>
+                <p class="warning">Don't share your secret key with anyone</p>
+                <div class="key-actions">
+                    <button class="new-wallet-btn">New Wallet</button>
+                    <button class="import-btn">Import</button>
+                </div>
+            </section>
+
+            <section class="import-wallet">
+                <h2>Import Wallet</h2>
+                <p>Paste your secret key and click the import button</p>
+                <input type="text" placeholder="">
+                <button class="import-btn">Import</button>
+            </section>
+
+            <footer>
+                <nav>
+                    <img src="./images/twitter.svg" alt="twitter" style="margin-bottom: -6px;" >
+                    <a href="#">2024 JumpToEarn</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </nav>
+            </footer>
+        </main>
+        <script src="script.js"></script>
+</body>
+
+</html>

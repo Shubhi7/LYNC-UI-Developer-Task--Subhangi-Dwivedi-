@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PepeTap Game UI</title>
+    <link rel="stylesheet" href="gamescreen.css">
+</head>
+
+<body>
+    <section class="screen">
+        <header>
+            <div class="logo">
+                <img src="./images/logo.png" alt="PepeTap Logo">
+                <span><h2>PEPETAP</h2></span> 
+            </div>
+            <a href="modal.html" style="text-decoration: none;
+    color: #fff;">
+                <div class="menu-icon">
+                    <span>&#9776;</span>
+                </div>
+            </a>
+        </header>
+
+        <main>
+            <div class="game-status">
+                <h1>GAME STARTED</h1>
+                <div class="coin-display">
+                    <img src="./images/dollar_icon.png" alt="Coin Icon">
+                    <span>250</span>
+                </div>
+            </div>
+
+            <div class="character-container">
+                <img src="./images/papa_pepe.png" alt="Character">
+            </div>
+
+            <button class="earn-coins-btn">TAP TO EARN COINS</button>
+
+            <div class="progress-container">
+                <span class="progress-value">0</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <span class="coin-icon"><img src="./images/dollar_icon.png"> </span>
+            </div>
+
+            <div class="auto-tickle">
+                <span>Auto tickle</span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </main>
+
+        <div class="footer-info">
+            <div class="info-box">
+                <div>Total Transaction: <span>0</span></div>
+                <div>Total Account: <span>0</span></div>
+            </div>
+        </div>
+        <footer>
+            <nav>
+                <img src="./images/twitter.svg" alt="twitter" style="margin-bottom: -6px;" >
+                <a href="#">2024 JumpToEarn</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </nav>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

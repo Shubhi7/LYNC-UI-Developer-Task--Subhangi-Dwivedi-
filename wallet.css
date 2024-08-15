@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@font-face {
+    font-family: 'New Era Casual Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New Era Casual Regular'), url('C:\Users\Shubhangi Dwivedi\Downloads\LYNC Assignment\font-family ') format('woff');
+    }
+    
+
+
+
+    /* General Reset and Styling */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    body {
+        background-color: #003300;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    
+    .wallet_screen{
+        background: linear-gradient(168deg, #062103 1.42%, #02220F 100%);
+        background: url(./images/wallet_background.png);
+    }
+    
+    .app-name {
+        margin-left: 10px;
+        font-size: 24px;
+    }
+    
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20px;
+        cursor: pointer;
+    }
+    
+    .menu-icon div {
+        width: 25px;
+        height: 3px;
+        background-color: #FFF;
+    }
+    
+    /* Main Sections */
+    main {
+        max-width: 400px;
+        margin: 0 auto;
+        /* background: linear-gradient(168deg, #062103 1.42%, #02220F 100%); */
+        padding: 20px;
+        border-radius: 10px;
+        background-image: url('./images/wallet_background.png'); /* Replace with the actual path to the image */
+    
+    }
+    
+    .wallet-info h2,
+    .instructions h2,
+    .import-wallet h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+        font-family: cursive;
+    }
+    
+    .instructions H3{
+        font-size: 18px;
+        margin-bottom: 22px;
+    }
+    
+    .wallet-info p,
+    .instructions p,
+    .import-wallet p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        color: #CCCCCC;
+    }
+    .logo h2{
+        font-family: cursive;
+    }
+    
+    .account-info {
+        margin: 20px 0;
+    }
+    
+    .account-card {
+        padding-bottom: 20px ;
+        border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(18, 71, 25, 0.85);
+    }
+    
+    .account-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        padding: 14px;
+        border-radius: 25px 25px 0px 0px;
+        border-bottom: 1px solid #FFF;
+        height: 81px;
+    }
+    
+    .account-header h3 {
+        font-size: 18px;
+    }
+    
+    .account-header p {
+        font-size: 14px;
+        color: #CCCCCC;
+    }
+    
+    .copy-icon {
+        cursor: pointer;
+    }
+    
+    .account-balance p {
+        display: flex;
+        justify-content: space-between;
+        /* margin: 12px 0; */
+        padding: 10px 14px;
+    }
+    
+    .action-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 0px 14px;
+    }
+    
+    .claim-btn,
+    .send-btn,
+    .new-wallet-btn,
+    .import-btn {
+        border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #146726;
+        color: #FFF;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .claim-btn:hover,
+    .send-btn:hover,
+    .new-wallet-btn:hover,
+    .import-btn:hover {
+        background-color: #008800;
+    }
+    
+    /* Instructions Section */
+    .instructions {
+        margin: 50px 0;
+    }
+    
+    .instruction-card {
+        border-radius: 25px;
+    border: 1px solid #D7D7D7;
+    background: rgba(28, 88, 34, 0.75);
+    box-shadow: 0px 2px 10px 0px rgba(221, 221, 221, 0.25);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .step {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .step-number {
+        background-color: #006600;
+        border-radius: 50%;
+        padding: 5px 10px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    
+    /* Secret Key Section */
+    .secret-key-section {
+        margin: 40px 0;
+    }
+    
+    .secret-key-box {
+        display: flex;
+        justify-content: space-between;
+        background-color: #105A13;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 22px;
+    }
+    
+    .warning {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    /* Import Wallet Section */
+    .import-wallet input[type="text"] {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #006600;
+        background-color: #004400;
+        color: #FFF;
+    }
+    .para-content h3{
+        display: flex;
+        flex-direction: column;
+        font-family: poppins;
+    }
+    
+    .import-wallet button {
+        border-radius: 6px;
+        border: 1px solid #EFEFEF;
+        background: #146726;
+        width: 117px;
+        height: 34.689px;
+    }
+    
